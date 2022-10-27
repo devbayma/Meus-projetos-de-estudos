@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 20px;
+    
+}
+/*Classes de Utilidades*/
+.button {
+    padding: 15px;
+    background-color: #333;
+    color: #eee;
+    border: none;
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+}
+
+.container{
+    background-color: #333;
+    color: #eee;
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 60px;
+    border: 3px solid red;
+
+}
+
+.main-aside ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.main-aside h2{
+    text-align: center;
+}
+
+.main-aside h2:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.main-aside ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-aside ul a:hover{
+    color: red;
+}
+
+.main-aside ul a:visited{
+    color: yellowgreen;
+}
+
+/*Formularios*/
+.main-form{
+    padding-left: 10px;
+}
+
+.main-form .form-group {
+    padding-bottom: 10px;
+}
+
+.main-form .form-group input {
+    padding: 10px;
+    width: 100%;
+}
+
+.main-form .form-group label{
+    display: block;
+}
+
+/* Positions */
+.relative {
+    position: relative;
+    border: 3px solid #333;
+    height: 500px;
+    border-radius: 7px;
+    margin-top: 10px;
+    
+    
+}
+
+.relative .absolute {
+    position: absolute;
+    bottom: 0;
+}
+
+.relative .absolute h1{
+    margin: 0;
+}
+
+/*Barra de navegacao*/
+#main-navbar{
+    background: #333;
+    color: #eee;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+/*Fixed de button*/
+.fixed-button {
+    background: #333;
+    color: #eee;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;    
+}
+
+/*categories*/
+
+/*.categories ul{
+    list-style: none;
+}
+
+.categories ul li:first-child{
+    color: red;
+}
+
+.categories ul li:last-child{
+    color: blue;
+}
+
+.categories ul li:nth-child(3){
+    color: rgb(128, 0, 255);
+} */
+
+.categories ul li:nth-child(even){
+    color: blue;
+}
+
+.categories ul li:nth-child(odd){
+    color: green;
+}
